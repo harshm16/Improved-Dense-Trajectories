@@ -1,5 +1,13 @@
 # Improved Dense Trajectories
 
+
+## The code has been modified to get trajectories for any given dataset. The generated trajectories
+## are in the format that the following code base requires. https://github.com/zekunhao1995/ControllableVideoGen
+
+## The original code base can be found in the following repo https://github.com/AraMambreyan/Improved-Dense-Trajectories.
+
+## Once the docker container is up and running, run the generate_trajectories.py script after making changes to all the [EDIT ME!].
+
 Interface for running
 [Improved Dense Trajectories](http://lear.inrialpes.fr/~wang/improved_trajectories)
 with no extra code. 

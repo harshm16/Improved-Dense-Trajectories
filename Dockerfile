@@ -69,6 +69,8 @@ RUN pip3 install scikit-learn pandas
 
 WORKDIR densetrack
 COPY . .
+# ADD /media/harsh/edfd3792-53f3-4c16-a23c-5a807b8e103b/hmishr3/video_generation/UCF-101 .
 RUN pip3 install --upgrade numpy
 RUN python3 setup.py install
-ENTRYPOINT python3 -u run_idt.py
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+# ENTRYPOINT python3 -u run_idt.py
